@@ -1,5 +1,5 @@
 
-# Softnio FrontEnd Test Task
+# Softnio Frontend Test Task
 
 ## Description
 
@@ -24,20 +24,20 @@ https://softnio-frontend-test-task.netlify.app/
 Clone the repository using HTTPS
 
 ```bash
-  git clone https://github.com/ArafatAkashAkku/Softnio-FrontEnd-Test-Task.git
+  git clone https://github.com/ArafatAkashAkku/Softnio-Frontend-Test-Task.git
 ```
 or
 
 Clone the repository using SSH
 
 ```bash
-  git clone git@github.com:ArafatAkashAkku/Softnio-FrontEnd-Test-Task.git
+  git clone git@github.com:ArafatAkashAkku/Softnio-Frontend-Test-Task.git
   ```
 
 Change directory
 
 ```bash
-  cd .\Softnio-FrontEnd-Test-Task\
+  cd .\Softnio-Frontend-Test-Task\
   cd '.\REACT Version\'
 ```
 
