@@ -37,7 +37,8 @@ Clone the repository using SSH
 Change directory
 
 ```bash
-  cd REACT Version
+  cd .\Softnio-FrontEnd-Test-Task\
+  cd '.\REACT Version\'
 ```
 
 Install npm packages and make sure Node.js installed
