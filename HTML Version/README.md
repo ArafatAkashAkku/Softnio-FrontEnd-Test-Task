@@ -41,7 +41,8 @@ Clone the repository using SSH
 Change directory
 
 ```bash
-  cd HTML Version
+  cd .\Softnio-FrontEnd-Test-Task\
+  cd '.\HTML Version\'
 ```
 
 Open index.html file in a browser
