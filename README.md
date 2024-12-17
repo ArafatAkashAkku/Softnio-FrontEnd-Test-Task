@@ -1,5 +1,5 @@
 
-# Softnio FrontEnd Test Task
+# Softnio Frontend Test Task
 
 The Softnio FrontEnd Test Task involves creating a user interface using two approaches: React and HTML/CSS/JavaScript.
 
@@ -18,14 +18,14 @@ https://softnio-frontend-test-task.netlify.app/
 Clone the repository using HTTPS
 
 ```bash
-  git clone https://github.com/ArafatAkashAkku/Softnio-FrontEnd-Test-Task.git
+  git clone https://github.com/ArafatAkashAkku/Softnio-Frontend-Test-Task.git
 ```
 or
 
 Clone the repository using SSH
 
 ```bash
-  git clone git@github.com:ArafatAkashAkku/Softnio-FrontEnd-Test-Task.git
+  git clone git@github.com:ArafatAkashAkku/Softnio-Frontend-Test-Task.git
   ```
 
 ## Folder Structure
