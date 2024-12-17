@@ -1,7 +1,7 @@
 
 # Softnio Frontend Test Task
 
-The Softnio FrontEnd Test Task involves creating a user interface using two approaches: React and HTML/CSS/JavaScript.
+The Softnio Frontend Test Task involves creating a user interface using two approaches: React and HTML/CSS/JavaScript.
 
 React Version: This version uses React, a modern JavaScript library for building dynamic user interfaces. For styling the web page, Tailwind CSS framework is used. 
 
