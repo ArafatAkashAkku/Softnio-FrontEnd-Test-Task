@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- meta tag for seo purposes  -->
+    <meta
+      name="description"
+      content="This is a Softnio Frontend Assignment to apply for the Frontend Developer job"
+    />
+    <meta
+      name="keywords"
+      content="Softnio, Frontend Developer, Web Developer"
+    />
+    <!-- tailwind cdn  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- external css  -->
+    <link href="./css/style.css" rel="stylesheet" />
+    <!-- favicon link  -->
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <title>Softnio Assignment</title>
+  </head>
+  <body class="overflow-x-hidden">
+    <div class="flex justify-center items-center w-[100vw] h-[100vh]">
+      <div class="flex justify-center h-full w-full lg:h-[75%] lg:w-[86%]">
+        <div class="flex flex-col lg:flex-row">
+          <!-- left side image show  -->
+          <div class="w-full p-4 lg:w-1/2" id="product-image">
+            <!-- dynamically image show on color click from js  -->
+          </div>
+          <!-- right size text description price color size quantity etc show  -->
+          <div class="w-full p-4 lg:w-1/2 flex flex-col justify-center">
+            <h1
+              class="text-[40px] font-bold leading-[44px] pb-3 pt-3"
+              style="color: #364a63"
+            >
+              Classy Modern Smart Watch
+            </h1>
+            <div class="flex gap-12">
+              <div class="flex gap-[4.5px]">
+                <img
+                  src="./images/icon/full-star.png"
+                  alt="full-star"
+                  loading="lazy"
+                />
+                <img
+                  src="./images/icon/full-star.png"
+                  alt="full-star"
+                  loading="lazy"
+                />
+                <img
+                  src="./images/icon/full-star.png"
+                  alt="full-star"
+                  loading="lazy"
+                />
+                <img
+                  src="./images/icon/half-star.png"
+                  alt="half-star"
+                  loading="lazy"
+                />
+                <img
+                  src="./images/icon/no-star.png"
+                  alt="no-star"
+                  loading="lazy"
+                />
+              </div>
+              <div>
+                <p
+                  class="text-[14px] font-normal leading-[23.1px]"
+                  style="color: #8091a7"
+                >
+                  (2 reviews)
+                </p>
+              </div>
+            </div>
+            <div class="flex gap-[5px] pt-5">
+              <span
+                class="text-[20px] font-normal leading-[30px] line-through"
+                style="color: #8091a7"
+              >
+                $99.00
+              </span>
+              <span
+                class="text-[24px] font-bold leading-[30px]"
+                style="color: #6576ff"
+                >$79.00</span
+              >
+            </div>
+            <p
+              class="text-[18px] font-normal leading-[30px] pt-5"
+              style="color: #8091a7"
+            >
+              I must explain to you how all this mistaken idea of denoun cing
+              ple praising pain was born and I will give you a complete account
+              of the system, and expound the actual teaching.
+            </p>
+            <div class="pt-5 flex gap-11">
+              <div>
+                <p
+                  class="text-[14px] font-normal leading-[23.1px]"
+                  style="color: #8091a7"
+                >
+                  Type
+                </p>
+                <p
+                  class="text-[16px] font-bold leading-[23px]"
+                  style="color: #364a63"
+                >
+                  Watch
+                </p>
+              </div>
+              <div>
+                <p
+                  class="text-[14px] font-normal leading-[23.1px]"
+                  style="color: #8091a7"
+                >
+                  Model number
+                </p>
+                <p
+                  class="text-[16px] font-bold leading-[23px]"
+                  style="color: #364a63"
+                >
+                  Forerunner 290XT
+                </p>
+              </div>
+            </div>
+            <div class="flex flex-col gap-[10px] pt-5">
+              <h1
+                class="text-[18px] font-bold leading-[20px]"
+                style="color: #364a63"
+              >
+                Band Color
+              </h1>
+              <!-- band color select and image show on selecting each color  -->
+              <div class="flex gap-2" id="band-color-check">
+                <button
+                  class="w-[25px] h-[25px] rounded-full flex justify-center items-center border color-choose-button"
+                >
+                  <span
+                    class="block p-2 w-4 h-4 border rounded-full bg-purple-600"
+                  ></span>
+                </button>
+                <button
+                  class="w-[25px] h-[25px] rounded-full flex justify-center items-center border color-choose-button"
+                >
+                  <span
+                    class="block p-2 w-4 h-4 border rounded-full bg-cyan-600"
+                  ></span>
+                </button>
+                <button
+                  class="w-[25px] h-[25px] rounded-full flex justify-center items-center border color-choose-button"
+                >
+                  <span
+                    class="block p-2 w-4 h-4 border rounded-full bg-blue-600"
+                  ></span>
+                </button>
+                <button
+                  class="w-[25px] h-[25px] rounded-full flex justify-center items-center border color-choose-button"
+                >
+                  <span
+                    class="block p-2 w-4 h-4 border rounded-full bg-black"
+                  ></span>
+                </button>
+              </div>
+            </div>
+            <div class="flex flex-col gap-[10px] pt-5">
+              <h1
+                class="text-[18px] font-bold leading-[20px]"
+                style="color: #364a63"
+              >
+                Wrist Size
+              </h1>
+              <!-- select price and sizes for chekout cart  -->
+              <div class="flex flex-wrap gap-2">
+                <button
+                  class="px-[18px] py-2 text-[13px] font-bold leading-5 border border-gray-400 rounded-sm size-price-button"
+                >
+                  S
+                  <span
+                    class="ms-1 font-extralight"
+                    style="color: rgba(54, 74, 99, 1)"
+                    >$69.00</span
+                  >
+                </button>
+                <button
+                  class="px-[18px] py-2 text-[13px] font-bold leading-5 border border-gray-400 rounded-sm size-price-button"
+                >
+                  M
+                  <span
+                    class="ms-1 font-extralight"
+                    style="color: rgba(54, 74, 99, 1)"
+                    >$79.00</span
+                  >
+                </button>
+                <button
+                  class="px-[18px] py-2 text-[13px] font-bold leading-5 border border-gray-400 rounded-sm size-price-button"
+                >
+                  L
+                  <span
+                    class="ms-1 font-extralight"
+                    style="color: rgba(54, 74, 99, 1)"
+                    >$89.00</span
+                  >
+                </button>
+                <button
+                  class="px-[18px] py-2 text-[13px] font-bold leading-5 border border-gray-400 rounded-sm size-price-button"
+                >
+                  XL
+                  <span
+                    class="ms-1 font-extralight"
+                    style="color: rgba(54, 74, 99, 1)"
+                    >$99.00</span
+                  >
+                </button>
+              </div>
+            </div>
+            <!-- cart quantity add and add to cart button  -->
+            <div class="flex gap-4 pt-5 flex-wrap">
+              <div class="flex items-center">
+                <button
+                  class="bg-gray-50 hover:bg-gray-100 text-gray-700 font-bold py-2 px-4 rounded-s-lg"
+                  style="border: 0.5px solid rgba(219, 223, 234, 1)"
+                  id="minus-button-cart"
+                >
+                  -
+                </button>
+                <span
+                  class="text-gray-700 font-bold py-2 px-6"
+                  style="
+                    border: 0.5px solid rgba(219, 223, 234, 1);
+                    background-color: #ffffff;
+                  "
+                  id="cart-button-count"
+                ></span>
+                <button
+                  class="bg-gray-50 hover:bg-gray-100 text-gray-700 font-bold py-2 px-4 rounded-e-lg"
+                  style="border: 0.5px solid rgba(219, 223, 234, 1)"
+                  id="plus-button-cart"
+                >
+                  +
+                </button>
+              </div>
+              <button
+                class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                id="add-to-cart"
+              >
+                Add to Cart
+              </button>
+              <button>
+                <img src="./images/icon/heart.png" alt="Heart" loading="lazy" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- checkout button show on click add to cart and disable automatically after 60s or disable immediately on click  -->
+    <div
+      class="fixed bottom-4 hidden justify-center items-center w-full"
+      id="checkout-button"
+    >
+      <button
+        class="py-2 px-6 border rounded-[20px] text-[14px] font-bold leading-5 shadow-2xl"
+        style="background: #ffbb5a"
+      >
+        Checkout
+        <span
+          class="ml-1 py-[2px] px-[6px] border rounded-lg"
+          style="background: #ffffff"
+          id="cart-count"
+        ></span>
+      </button>
+    </div>
+    <!-- checkout modal pop show on click checkout and remove on click itself modal because nothing else was in the assignment -->
+    <div
+      class="h-[100vh] w-[100vw] fixed top-0 justify-center items-center hidden"
+      style="background: rgba(17, 18, 27, 0.55)"
+      id="checkout-modal"
+    >
+      <div
+        class="w-[90%] h-[90%] lg:w-[42%] lg:h-[80%] bg-white border rounded-2xl"
+      >
+        <div class="p-[44px]">
+          <h1
+            class="text-[22px] font-bold leading-6 pb-2"
+            style="color: #364a63"
+          >
+            Your Cart
+          </h1>
+          <div class="flex flex-col pt-1">
+            <div class="-m-1.5 overflow-x-scroll">
+              <div class="p-1.5 min-w-full inline-block align-middle">
+                <div>
+                  <table
+                    class="min-w-full divide-y divide-gray-200 h-[56vh] overflow-y-scroll block"
+                  >
+                    <thead>
+                      <tr>
+                        <th
+                          scope="col"
+                          class="py-3 text-start text-[14px] font-normal w-[278px] block"
+                          style="color: #8091a7"
+                        >
+                          Item
+                        </th>
+                        <th
+                          scope="col"
+                          class="py-3 text-[14px] font-normal text-center w-[62px]"
+                          style="color: #8091a7"
+                        >
+                          Color
+                        </th>
+                        <th
+                          scope="col"
+                          class="py-3 text-[14px] font-normal text-center w-[69px]"
+                          style="color: #8091a7"
+                        >
+                          Size
+                        </th>
+                        <th
+                          scope="col"
+                          class="py-3 text-[14px] font-normal text-center w-[59px]"
+                          style="color: #8091a7"
+                        >
+                          Qnt
+                        </th>
+                        <th
+                          scope="col"
+                          class="py-3 text-[14px] font-normal text-right pr-4"
+                          style="color: #8091a7"
+                        >
+                          Prize
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody class="divide-y divide-gray-200" id="cart-modal">
+                      <!-- dynamically add table body from js  -->
+                    </tbody>
+                    <tfoot class="divide-y divide-gray-200">
+                      <tr class="pb-4">
+                        <td
+                          colspan="3"
+                          class="py-4 whitespace-nowrap text-[16px] font-bold text-left leading-[22px]"
+                          style="color: #373737"
+                        >
+                          Total
+                        </td>
+                        <td
+                          class="py-4 whitespace-nowrap text-[14px] font-bold text-center leading-[34px]"
+                          style="color: #364a63"
+                          id="cart-qty-modal"
+                        ></td>
+                        <td
+                          class="py-4 whitespace-nowrap text-[18px] font-bold text-right leading-[34px] pr-4"
+                          style="color: #364a63"
+                          id="cart-total-modal"
+                        ></td>
+                      </tr>
+                    </tfoot>
+                  </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="pt-3 flex flex-col lg:flex-row gap-6 justify-center items-center lg:justify-end">
+              <button
+                class="py-2 px-[18px] text-[13px] font-bold leading-5 border rounded"
+                style="color: #364a63; border: 1px solid #dbdfea"
+              >
+                Continue Shopping
+              </button>
+              <button
+                class="py-2 px-[18px] text-[13px] font-bold leading-5 border rounded"
+                style="color: #ffffff; background: #6576ff"
+              >
+                Checkout
+              </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- external js  -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>
