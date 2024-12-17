@@ -77,7 +77,7 @@ Softnio-FrontEnd-Test-Task/REACT Version/
 │   │-- main.js           # Entry point for React
 │   └── index.css         # Tailwind CSS setup
 │-- eslint.config.js      # ESLint Configuration
-|-- index.html            # Main HTML file
+│-- index.html            # Main HTML file
 │-- package-lock.json     # Project dependencies
 │-- package.json          # Project dependencies
 │-- postcss.config.js     # CSS Configuration
